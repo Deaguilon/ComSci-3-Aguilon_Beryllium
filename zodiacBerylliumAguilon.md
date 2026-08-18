@@ -26,5 +26,8 @@ user_birth_year = int(input("Input Birth Year: "))
 print(f"Your Chinese Zodiac Sign is: {zodiac[user_birth_year % 12]}")
 ```
 
-## Output
-![Program Output](zodiac_screenshot.png)
+## Changes
+- Changed def zodiac_sign(year) to if-elif (ex. if year % 12 == 4: print("Rat (鼠 / Shǔ)"))
+- Added Chinese counterpart
+- Changed if-elif clutter to listing (Shortened code from 39 lines to 6 lines max.)
+  
